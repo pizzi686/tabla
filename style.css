@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+#cont{
+    margin: 100;
+    background-color: d7e3fc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-color: 03045e;
+    color: white;
+   
+    
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: 0077b6;
+    color: white;
+    display: flex ;
+    padding-left: 10;
+
+}
+nav h3{
+    margin: 0;
+}
+#head{
+    background-color: 00b4d8;
+    color: whitesmoke;
+}
+#table{
+    padding: 10;
+
+}
+#table table{
+    border-collapse: collapse;
+}
+
+#tbody{
+    background-color: caf0f8;
+}
+
+#table button{
+    cursor: pointer; 
+    background-color: whitesmoke;
+    width: 185;
+    
+    transition: 0.5s ease ;
+
+}
+
+#table button.remove:hover{
+    background-color: d00000;
+    color:whitesmoke;
+
+}
+#table button.edit:hover{
+    background-color: e85d04; 
+    color:whitesmoke;
+}
+#table button#nuevokit:hover{
+    background-color: 38b000;
+    color:whitesmoke;
+}
+
+
+#table tr:hover{
+    border-color: black;
+    
+    transition: 1.5s ease ;
+    
+    
+}
+.new_kit{
+    z-index: 2;
+   
+    overflow: hidden;
+   
+}
+
+#nkForm{
+    position: relative;
+    z-index: 1;
+    top:-500;
+    transition: 0.51s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+}
+
+.new_kit input:hover{
+
+border-color: black;
+background-color: seashell;
+
+transition: 1s ease-in-out ;
+}
+
+.new_kit button#cancelarnuevokit:hover,.new_kit button#save-kit:hover {
+    background-color: 161a1d;
+    color: aliceblue;
+}
+
+
+

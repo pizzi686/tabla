@@ -1,0 +1,94 @@
+<html >
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Registrar Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cont">
+        <header>
+            <h2>From SN</h2>
+            <nav>
+                
+                <h3>Registrar producto </h3>
+              </nav>
+          </header>
+                       
+                 
+            <div id="table"> 
+                <h4>Productos:</h4>
+                <table border="1">
+                        <tr>
+                            <thead id="head">
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Descripcion</th>
+                            <th>Precio de Venta</th>
+                            <th>Option</th>
+                        </thead>
+                        </tr>
+                        <tbody id="tbody">
+                        <tr>
+                            <td>1</td>
+                            <td>producto 1</td>
+                            <td>descripcion 1, descripcion 2, descripcion 3,..., descripcion n</td>
+                            <td>10</td> 
+                            <td >
+                                <button class="edit">Modificar</button>
+                                <button class="remove">Eliminar</button>
+                                </td>                    
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>producto 2</td>
+                            <td>descripcion 1, descripcion 2, descripcion 3,..., descripcion n</td>
+                            <td>10</td>    
+                            <td >
+                                <button class="edit">Modificar</button>
+                                <button class="remove">Eliminar</button>
+                                </td>                                
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>producto 3</td>
+                            <td>descripcion 1, descripcion 2, descripcion 3,..., descripcion n</td>
+                            <td>10</td>  
+                            <td >
+                                <button class="edit">Modificar</button>
+                                <button class="remove">Eliminar</button>
+                                </td>                  
+                                               
+                        </tr>
+                        <tr>
+                            <td colspan="5"> <button id="nuevokit"> Press to add a new product</button></td>
+                           
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="new_kit" >
+                    <form id="nkForm">
+                        <br>
+                        id
+                        <input type="number" name="Id" id="" required>
+                        nombre
+                        <input type="text" name="Id" id="" required>
+                        Descripcion
+                        <input type="text" name="Id" id="" required>
+                         precio
+                        <input type="number" name="Id" id="" required> 
+                       
+                        
+                        <button type="reset" id="cancelarnuevokit" >Reset</button>
+                        <button type="submit" id="save-kit"  >Guardar</button>
+                        
+                    </form>
+                    <script src="ca.js"></script>
+                </div>
+                <!--<script src="codigo.js"></script>-->
+                
+            </div>
+    </div>
+  
+</body>
+</html>
